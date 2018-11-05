@@ -4,13 +4,20 @@
 
 .main {
   max-width: 600px !important;
-}
-
-.row {
   border: 1px solid lightgray;
 }
 
+h2, .item-name {
+  font-family: 'Roboto Slab', serif !important;
+}
+
 .ingredient-quantity {
-  width: 40px;
-  height: 40px;
+  width: 40px !important; 
+  height: 40px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
 }
