@@ -1,6 +1,11 @@
-body {
-  background: url("../images/logo-adalab-80px.png") center center no-repeat #fff;
-  height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
-/*# sourceMappingURL=main.css.map */
+.container {
+  background-color: lightgrey;
+}
+
+.row {
+  border: 1px solid black;
+}
