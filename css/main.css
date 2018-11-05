@@ -2,10 +2,15 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-color: lightgrey;
+.main {
+  max-width: 600px !important;
 }
 
 .row {
-  border: 1px solid black;
+  border: 1px solid lightgray;
+}
+
+.ingredient-quantity {
+  width: 40px;
+  height: 40px;
 }

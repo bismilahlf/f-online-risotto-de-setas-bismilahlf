@@ -4,176 +4,67 @@
 <head>
   <meta charset="UTF-8">
   <title>Rissoto de Setas</title>
-  <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="container">
-    <div class="row title-wrapper">
-      <div class="col">
-				<span>ingredientes</span>
-				<h1>Rissoto de Setas</h1>
-				<button>Seleccionar todo</button>
-				<button>Deseleccionar todo</button>
+  <div class="container main">
+    <div class="row no-gutters">
+      <div class="col  ml-4">
+        <span>INGREDIENTES</span>
       </div>
     </div>
-		
-		<div class="row iten-wrapper">
-      <div class="col">
-				<input class="" type="checkbox" value="" id="defaultCheck1">
-				<input type="number">
-				<span class="item-name">
-						Nombre
-					</span>
-					<span class="item-brand">
-						Marca
-					</span>
-					<span class="item-weight">
-						peso
-					</span>
-			</div>
-			<div class="col-5"></div>
-      <div class="col">
-        precio
+    <div class="row no-gutters">
+      <div class="col  ml-4">
+        <h2>Rissoto de Setas</h2>
       </div>
-		</div>
-		
-		<div class="row iten-wrapper">
-			<div class="col">
-				<input class="" type="checkbox" value="" id="defaultCheck1">
-				<input type="number">
-				<span class="item-name">
-						Nombre
-					</span>
-					<span class="item-brand">
-						Marca
-					</span>
-					<span class="item-weight">
-						peso
-					</span>
-			</div>
-			<div class="col-5"></div>
-			<div class="col">
-				precio
-			</div>
-		</div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col  ml-4">
+        <a href="">Seleccionar todo</a>
+        <a href="">Deseleccionar todo</a>
+      </div>
+    </div>
 
-		<div class="row iten-wrapper">
-			<div class="col">
-				<input class="" type="checkbox" value="" id="defaultCheck1">
-				<input type="number">
-				<span class="item-name">
-						Nombre
-					</span>
-					<span class="item-brand">
-						Marca
-					</span>
-					<span class="item-weight">
-						peso
-					</span>
-			</div>
-			<div class="col-5"></div>
-			<div class="col">
-				precio
-			</div>
-		</div>
-
-		<div class="row iten-wrapper">
-			<div class="col">
-				<input class="" type="checkbox" value="" id="defaultCheck1">
-				<input type="number">
-				<span class="item-name">
-						Nombre
-					</span>
-					<span class="item-brand">
-						Marca
-					</span>
-					<span class="item-weight">
-						peso
-					</span>
-			</div>
-			<div class="col-5"></div>
-			<div class="col">
-				precio
-			</div>
-		</div>
-
-		<div class="row iten-wrapper">
-			<div class="col">
-				<input class="" type="checkbox" value="" id="defaultCheck1">
-				<input type="number">
-				<span class="item-name">
-						Nombre
-					</span>
-					<span class="item-brand">
-						Marca
-					</span>
-					<span class="item-weight">
-						peso
-					</span>
-			</div>
-			<div class="col-5"></div>
-			<div class="col">
-				precio
-			</div>
-	</div>
-
-	<div class="row iten-wrapper">
-		<div class="col">
-			<input class="" type="checkbox" value="" id="defaultCheck1">
-			<input type="number">
-			<span class="item-name">
-					Nombre
-				</span>
-				<span class="item-brand">
-					Marca
-				</span>
-				<span class="item-weight">
-					peso
-				</span>
-		</div>
-		<div class="col-5"></div>
-		<div class="col">
-			precio
-		</div>
-	</div>
-
-	<div class="row iten-wrapper">
-		<div class="col">
-			<input class="" type="checkbox" value="" id="defaultCheck1">
-			<input type="number">
-			<span class="item-name">
-					Nombre
-				</span>
-				<span class="item-brand">
-					Marca
-				</span>
-				<span class="item-weight">
-					peso
-				</span>
-		</div>
-		<div class="col-5"></div>
-		<div class="col">
-			precio
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col">
-			<span>Items:</span>
-			<span>Subtotal</span>
-			<span>Gastos de envío</span>
-			<span>Total</span>
-		</div>
-		<div class="col-5"></div>
-		<div class="col">
-			<span>0,00</span>
-			<span>0,00</span>
-			<span>0,00</span>
-		</div>
-	</div>
+    <div class="row no-gutters">
+      <div class="col d-flex align-items-center">
+        <input type="checkbox" class="m-1">
+        <input type="number" class="ingredient-quantity m-1">
+        <div class="d-flex flex-column m-1">
+          <h3>Artículo</h3>
+          <span>marca</span>
+          <span>0kg</span>
+        </div>
+      </div>
+      <div class="col-2 mr-4 d-flex align-items-center justify-content-end">
+        <span>0,00</span>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col ml-4">
+        <span>Item:</span><span>0</span>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col ml-4">Subtotal</div>
+      <div class="col-2 mr-4 text-right">0,00</div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col ml-4">Gastos de envío</div>
+      <div class="col-2 mr-4 text-right">0,00</div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col ml-4">Total</div>
+      <div class="col-2 mr-4 text-right">0,00</div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col mx-4">
+        <button class="w-100">Comprar ingredientes: <span>0,00</span></button>
+      </div>
+    </div>
 
   </div>
 </body>

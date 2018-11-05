@@ -14,7 +14,7 @@
 
         "no-console": 1,
         "array-callback-return": 1,
-        "block-scoped-var": 1,
+        "block-classd-var": 1,
         "consistent-return": 1,
         "curly": [1, "multi-line", "consistent"],
         "no-empty-function": 1,
