@@ -1,3 +1,3 @@
-##Formación Continua
+#Formación Continua
 
 Prueba técnica 5
