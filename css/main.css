@@ -11,7 +11,7 @@ h2, .item-name {
   font-family: 'Roboto Slab', serif !important;
 }
 
-.ingredient-quantity {
+.item-number {
   width: 40px !important; 
   height: 40px !important;
 }
