@@ -4,9 +4,9 @@ var data;
 var listItem = document.querySelector('.list-group');
 var ingredientList = '';
 
-var checkboxes;
-var quantities;
-var prices;
+var checkboxes = [];
+var quantities = [];
+var prices = [];
 
 var selectButton = document.querySelector('.select-button');
 var unselectButton = document.querySelector('.unselect-button');
@@ -59,7 +59,7 @@ function init() {
     checkboxes[i].addEventListener('change', updateTotal);
     quantities[i].addEventListener('change', updateTotal);
   }
-  
+
   selectButton.addEventListener('click', selectAll);
   unselectButton.addEventListener('click', unselectAll);
 }
